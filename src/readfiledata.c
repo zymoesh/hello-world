@@ -4,6 +4,10 @@
 
 int main() {
   FILE *fp, *fpout;
+
+  /* TODO: Use arguments instead of fixed filenames for
+     input and output.
+  */
   fp = fopen("mutant-happy-face.data", "rb");
   fpout = fopen("mutant-happy-face.out", "r+b");
   int packed_nibbles;
